@@ -1,0 +1,8 @@
+Exception:-
+Try- THe try block contains code which may cause exceptions
+Syntax:
+try:
+    statements
+Except- 
+
+We can write several except 

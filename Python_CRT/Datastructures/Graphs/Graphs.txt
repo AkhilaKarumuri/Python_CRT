@@ -1,0 +1,26 @@
+Graphs:-
+A graph is a pair G=(V.E) where V is a set whose elements are called vertices and E is a set of two sets of vertices whose elements are called edges
+GRAPH OPERATINS:
+1.Add Vertex
+2.Add edge
+3.Remove Vertex
+4.Remove Edge
+5.Display Graph
+6.Traversal
+7.View Edges
+8.Get Neighbour Nodes
+Graph Terminology:
+1.Nodes are named verctices, and the connection between them are called as edges.
+2.Two vertices are said to be adjacent if there exists a direct edge connecting them.
+3.The degree of a node is defined as the number of edges that are incident to it
+4.A path is a collection of edges through which we can reach from one node to the other node in Graph
+5.A graph is said to be connected if there is a path between every pair of vertices.
+6.number of edges means N*(N-1)/2 edges
+7.This is the maximum number of edges that a graph can have.
+
+DFS(Depth First Search):is a graph teaversal algorithm that starts from a source node and explores as far as possible along each branch before backtracking.
+It uses a stack (either explicity pr via recursion) and goes deep into one path before tying others.
+
+BFS(Breath First Search)is an algorithm where we start from the selected node and treverse the graph level-wise pr layer -wise,thus exlopring the neighbour nodes (which are directly connected to starting node),and then moving on to the next  level neighbour node
+1.We first move horizontanlly and visit all the nodes of the current layer
+2.Then move to the next layer.
