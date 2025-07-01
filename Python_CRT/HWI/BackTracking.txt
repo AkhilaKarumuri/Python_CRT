@@ -1,0 +1,8 @@
+A back tracking is a problem-solving algorithm that uses abrute force approach for finding the desired output
+The brute force approach tries out all the possible solutions
+There are three types of problems in baccktracking:
+Decision Problem: In this we search for feasable solution
+Optimization Problem: In this, we search for the best solution
+Enumeration Problem: In this, we find all feasable solutions
+Difference between Recursion and Backtracking:
+In recursion the function calls itself until it reaches the base case.
